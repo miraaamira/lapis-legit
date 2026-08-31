@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapis Legit Premium</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fffaf2;
+            color: #3b2415;
+        }
+
+        /* NAVBAR */
+        header {
+            background: #4b2614;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            color: #ffd76a;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #ffd76a;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 8%;
+            background: linear-gradient(135deg, #fff3d0, #f5d28b);
+        }
+
+        .hero-text {
+            max-width: 550px;
+        }
+
+        .promo {
+            display: inline-block;
+            background: #b52b2b;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #a45c16;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #8b4513;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #5f2e0e;
+            transform: translateY(-3px);
+        }
+
+        .hero-img {
+            font-size: 180px;
+        }
+
+        /* PRODUK */
+        section {
+            padding: 70px 8%;
+        }
+
+        .judul {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .judul h2 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+
+        .produk-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .kue {
+            font-size: 80px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .harga {
+            color: #b46b16;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .diskon {
+            color: #c62828;
+            text-decoration: line-through;
+            font-size: 14px;
+        }
+
+        /* PROMO */
+        .promo-box {
+            background: #5b2d16;
+            color: white;
+            border-radius: 25px;
+            padding: 45px;
+            text-align: center;
+        }
+
+        .promo-box h2 {
+            color: #ffd76a;
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .promo-box p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* KEUNGGULAN */
+        .fitur {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .fitur div {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+        }
+
+        .fitur span {
+            font-size: 40px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #32180d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero-img {
+                font-size: 120px;
+                margin-top: 30px;
+            }
+
+            nav a {
+                margin-left: 8px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🍰 LapisLegit</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#produk">Produk</a>
+        <a href="#promo">Promo</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <span class="promo">🔥 PROMO SPESIAL HARI INI!</span>
+
+        <h1>Lapis Legit <span>Premium</span></h1>
+
+        <p>
+            Nikmati kelembutan lapis legit dengan rasa butter
+            yang gurih, manis, dan dibuat dari bahan berkualitas.
+        </p>
+
+        <a class="btn"
+           href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20order%20Lapis%20Legit">
+           🛒 Checkout via WhatsApp
+        </a>
+
+    </div>
+
+    <div class="hero-img">
+        🍰
+    </div>
+
+</section>
+
+<!-- PRODUK -->
+<section id="produk">
+
+    <div class="judul">
+        <h2>Produk Kami</h2>
+        <p>Pilih lapis legit favoritmu!</p>
+    </div>
+
+    <div class="produk-container">
+
+        <div class="card">
+            <div class="kue">🍰</div>
+            <h3>Lapis Legit Original</h3>
+            <p>Lembut, wangi butter dan rasa klasik.</p>
+
+            <div class="harga">
+                Rp85.000
+            </div>
+
+            <a class="btn"
+               href="https://wa.me/6281234567890?text=Halo%20saya%20pesan%20Lapis%20Legit%20Original">
+               Pesan Sekarang
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="kue">🍰</div>
+            <h3>Lapis Legit Keju</h3>
+            <p>Perpaduan legit dan gurihnya keju.</p>
+
+            <div class="harga">
+                Rp95.000
+            </div>
+
+            <a class="btn"
+               href="https://wa.me/6281234567890?text=Halo%20saya%20pesan%20Lapis%20Legit%20Keju">
+               Pesan Sekarang
+            </a>
+        </div>
+
+        <div class="card">
+            <div class="kue">🍰</div>
+            <h3>Lapis Legit Premium</h3>
+            <p>Tekstur premium dengan rasa butter yang nikmat.</p>
+
+            <div class="diskon">
+                Rp120.000
+            </div>
+
+            <div class="harga">
+                Rp99.000
+            </div>
+
+            <a class="btn"
+               href="https://wa.me/6281234567890?text=Halo%20saya%20pesan%20Lapis%20Legit%20Premium">
+               🔥 Ambil Promo
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROMO -->
+<section id="promo">
+
+    <div class="promo-box">
+
+        <h2>🎉 PROMO MERDEKA!</h2>
+
+        <p>
+            Diskon hingga <strong>20%</strong> untuk pembelian
+            Lapis Legit Premium.
+        </p>
+
+        <p>
+            🚚 Gratis ongkir untuk minimal pembelian Rp150.000*
+        </p>
+
+        <a class="btn"
+           href="https://wa.me/6281234567890?text=Halo%20saya%20ingin%20mengambil%20PROMO%20Lapis%20Legit">
+           💬 Klaim Promo
+        </a>
+
+    </div>
+
+</section>
+
+<!-- KEUNGGULAN -->
+<section>
+
+    <div class="judul">
+        <h2>Kenapa Pilih Kami?</h2>
+    </div>
+
+    <div class="fitur">
+
+        <div>
+            <span>🥚</span>
+            <h3>Bahan Berkualitas</h3>
+            <p>Menggunakan bahan pilihan.</p>
+        </div>
+
+        <div>
+            <span>👩‍🍳</span>
+            <h3>Dibuat Fresh</h3>
+            <p>Dibuat dengan proses yang higienis.</p>
+        </div>
+
+        <div>
+            <span>📦</span>
+            <h3>Kemasan Aman</h3>
+            <p>Dikemas rapi untuk menjaga kualitas.</p>
+        </div>
+
+        <div>
+            <span>❤️</span>
+            <h3>Rasa Istimewa</h3>
+            <p>Cocok untuk keluarga dan hadiah.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- KONTAK -->
+<section id="kontak">
+
+    <div class="judul">
+        <h2>Siap Mencoba?</h2>
+
+        <p>
+            Pesan Lapis Legit favoritmu sekarang melalui WhatsApp.
+        </p>
+
+        <br>
+
+        <a class="btn"
+           href="https://wa.me/6281234567890?text=Halo%20LapisLegit%2C%20saya%20ingin%20memesan">
+           📱 Chat WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 LapisLegit Premium | Dibuat dengan ❤️</p>
+</footer>
+
+</body>
+          </html>
